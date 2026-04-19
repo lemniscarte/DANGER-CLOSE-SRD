@@ -13,6 +13,7 @@ window.TOC = [
   { id: "hard-targets",       title: "Hard Targets",        file: "chapters/06-hard-targets.md" },
   { id: "equipment-and-gear", title: "Equipment & Gear",    file: "chapters/07-equipment-and-gear.md" },
   { id: "after-the-mission",  title: "After The Mission",   file: "chapters/08-after-the-mission.md" },
+  { id: "summary",  title: "Summary",   file: "chapters/09-summary.md" },
 
   // { group: "Toolkit" },
   // { id: "making-troopers",    title: "Making Troopers",     placeholder: true },
