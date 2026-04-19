@@ -14,11 +14,11 @@ window.TOC = [
   { id: "equipment-and-gear", title: "Equipment & Gear",    file: "chapters/07-equipment-and-gear.md" },
   { id: "after-the-mission",  title: "After The Mission",   file: "chapters/08-after-the-mission.md" },
 
-  { group: "Toolkit" },
-  { id: "making-troopers",    title: "Making Troopers",     placeholder: true },
-  { id: "sector-inspiration", title: "Sector Inspiration",  placeholder: true },
-  { id: "between-the-bullets",title: "Between the Bullets", placeholder: true },
-  { id: "campaigns",          title: "Campaigns & Operations", placeholder: true },
+  // { group: "Toolkit" },
+  // { id: "making-troopers",    title: "Making Troopers",     placeholder: true },
+  // { id: "sector-inspiration", title: "Sector Inspiration",  placeholder: true },
+  // { id: "between-the-bullets",title: "Between the Bullets", placeholder: true },
+  // { id: "campaigns",          title: "Campaigns & Operations", placeholder: true },
 
   { group: "Reference" },
   { id: "credits",            title: "Credits & License",   file: "chapters/99-credits.md" },
