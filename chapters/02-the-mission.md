@@ -157,7 +157,7 @@ Roll {roll:1d6|Boon}.
 | 1 | **Ammo Cache.** All Troopers gain +1 Ammo. |
 | 2 | **Enemy Intel.** A vantage point, wounded scout or intercepted comms signal gives you +1 on the next [[Advance Roll]]. |
 | 3 | **Prepared Ground.** Someone was here before you, and they left gifts. Razor wire, traps, pre-sighted kill zones, a friendly mine field. Easily avoided by your Squad. If enemy forces pursue you into this Sector, gain +1 [[Momentum]] automatically. |
-| 4 | **Fallen Friendlies.** A slain friendly squad, with {roll:1d3} [[Ammo]] and [[Special Weapons\|a Special Weapon]] ({roll:1d6}): 1-3 an LMG // 4-5 a Sniper Rifle // 6 Rocket Launcher |
+| 4 | **Fallen Friendlies.** A slain friendly squad, with {roll:1d3} [[Ammo]] and [[Special Weapons]] ({roll:1d6}): 1-3 an LMG // 4-5 a Sniper Rifle // 6 Rocket Launcher |
 | 5 | **Positions Revealed.** A comms relay, interrogated foe or briefing from Command informs you of the Threat Level and Cover of all adjoining Sectors. |
 | 6 | **Rookies.** An eager squad of rookies, local militia or fresh recruits joins up with you. Their awe of the Squad is palpable. They act as a sizable group (**+2 ATK**). See [[Attached Forces]] in the Engagement section. |
 
@@ -187,9 +187,9 @@ extra [[Status]] level before [[Bleeding Out]], a flat **+1 ATK** on whatever th
 ## Fleshing Out Sectors
 
 Roll {roll:1d6} or pick an element to add more depth to a Sector. Each entry is a fiction prompt, not a fixed rule. Interpret it based on the setting, the terrain, and what makes the fight interesting.
-1. **Elevated Position**. A ridge, rooftop, gantry, or cliff face. Whoever holds it has the advantage. If the squad holds the high ground, Fortified Troopers might gain +1 ATKfrom clear sight lines. If the enemy holds it, the squad might suffer -1 ATK shooting uphill. Can change hands through movement. The Advance Roll result suggests who starts with it.
+1. **Elevated Position**. A ridge, rooftop, gantry, or cliff face. Whoever holds it has the advantage. If the squad holds the high ground, Fortified Troopers might gain **+1 ATK** from clear sight lines. If the enemy holds it, the squad might suffer -1 ATK shooting uphill. Can change hands through movement. The Advance Roll result suggests who starts with it.
 2. **Volatile Element**. Fuel storage, ammunition stockpile, gas pockets, unstable machinery. Before the Engagement starts, define what it is and where it sits. Either side can target it: treat it as a separate [[Hard Target]] pool. If it blows, it might deal **+3 ATK** worth of damage, reduce Defensive Positions, or create smoke. The enemy might target it too, forcing Troopers to Move or take Injuries.
 3. **Concealment**. Underbrush, fog, smoke, tall grass, industrial haze. Can grant +1 on the [[Advance Roll]]. In combat, it might grant +1 DEF for the first Exchange, or for the whole Engagement if the fiction supports it.
 4. Unstable Ground. Mud, rubble, ice, shifting debris, flooded terrain. -1 [[Mobility]] for all Troopers this Engagement. Movement becomes riskier, Flanking Bonuses might drop a tier. The enemy suffers too.
-5. **Collateral Risk**. Civilians, prisoners, fragile objectives, sacred ground, volatile cargo. If the squad's ATK pool exceeds a threshold (7 or higher), there's a risk of collateral damage: roll {roll:1d6}, on a 1-2 something goes wrong. Consequences are fictional but real. Precision matters. Heavy weapons become liabilities.
+5. **Collateral Risk**. Civilians, prisoners, fragile objectives, sacred ground, volatile cargo. If the squad's **ATK** pool exceeds a threshold (7 or higher), there's a risk of collateral damage: roll {roll:1d6}, on a 1-2 something goes wrong. Consequences are fictional but real. Precision matters. Heavy weapons become liabilities.
 6. **Interactable**. Floodlights, blast doors, bridge controls, generators, cranes, consoles. A Trooper can spend their Intent to activate it. The effect depends on the fiction: cutting lights might grant Concealment, opening a door might create a flanking route, activating machinery might crush a [[Hard Target]].
