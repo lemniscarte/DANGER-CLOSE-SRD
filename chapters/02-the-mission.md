@@ -6,7 +6,7 @@ The network between Sectors can grow quite complex, varying from a simple linear
 
 ## Difficulty
 
-> *"Actual to Squad, listen up, quick and clean: you hit the LZ, move hard to Sector Alpha. Clear light resistance, no prolonged fights — keep momentum. Push through to Bravo, expect open ground; use smoke for crossing and suppressing fire from two-man element. Charlie is the objective. Take it, dig in, hold until evac or relief. Holdout timer starts on contact. Rules of engagement: no unnecessary heroics, conserve ammo. Questions? No? Stack up. Move at 30, eyes sharp. Good hunting."*
+> *"Actual to Squad, listen up, quick and clean: you hit the LZ, move hard to Sector Alpha. Clear light resistance, no prolonged fights - keep momentum. Push through to Bravo, expect open ground; use smoke for crossing and suppressing fire from two-man element. Charlie is the objective. Take it, dig in, hold until evac or relief. Holdout timer starts on contact. Rules of engagement: no unnecessary heroics, conserve ammo. Questions? No? Stack up. Move at 30, eyes sharp. Good hunting."*
 
 A Mission has a set **Difficulty**, which determines the maximum [[Threat Level]] of foes encountered. Assign a difficulty that makes sense, or roll {roll:1d6|Difficulty}:
 
@@ -35,7 +35,7 @@ If a transport takes fire, roll {roll:1d6|Take fire}. On a **1–3**, the transp
 If the transport is shot down, each Trooper rolls {roll:1d6|Crash injury}. On a **1–2**, they suffer an [[Injury]] as the vehicle crashes.
 
 - If en route to the LZ, the Squad lands off-course and must travel {roll:1d3|Extra sectors} extra Sectors on foot.
-- If extracting, the Squad must hold off enemies at the crash site (a Defensive [[Engagement]] — survive for TL + {roll:1d2|Exchanges} Exchanges) or reroute to a secondary Extraction Zone ({roll:1d3|Sectors away} Sectors away), or risk being left behind.
+- If extracting, the Squad must hold off enemies at the crash site (a Defensive [[Engagement]] - survive for TL + {roll:1d2|Exchanges} Exchanges) or reroute to a secondary Extraction Zone ({roll:1d3|Sectors away} Sectors away), or risk being left behind.
 
 # Mission Objective
 
@@ -47,11 +47,11 @@ Move from LZ to Objective, destroy opposition and/or secure position. Your bread
 
 - **Assault.** Take down an enemy position and claim it.
 - **Search & Destroy.** Take down a particular enemy unit.
-- **Breach.** Destroy an enemy fortification (might involve bringing Demolition Charges).
+- **Breach.** Destroy an enemy fortification (might involve bringing [[Special Equipment|Demolition Charges]]).
 
 ## Hit & Run
 
-Move from LZ to Objective, complete task, exfiltrate. Precision mission — entry and exit baked in. Depending on the parameters, the exit might involve reaching a different EZ.
+Move from LZ to Objective, complete task, exfiltrate. Precision mission - entry and exit baked in. Depending on the parameters, the exit might involve reaching a different EZ.
 
 - **Raid.** Done to inflict damage, cause a distraction or debilitate an enemy force.
 - **Recon.** Gain intel from a particular position.
@@ -89,15 +89,15 @@ Whenever you enter a Sector, *before* you roll for its contents, roll {roll:2d6k
 If the result is equal or greater than the Mission Length (7, 9 or 11), this sector contains the Objective.
 
 > [!example] Worked example
-> The Tiger Commandos have cleared 5 sectors during their Medium length mission. They're about to enter a new sector of the thick jungles of Thralaan IV. They roll 2d6, and keep the lowest (a 3). They add the number of cleared sectors — 3+5=8. They haven't reached the target number yet (9), but they are getting close…
+> The Tiger Commandos have cleared 5 sectors during their Medium length mission. They're about to enter a new sector of the thick jungles of Thralaan IV. They roll 2d6, and keep the lowest (a 3). They add the number of cleared sectors - 3+5=8. They haven't reached the target number yet (9), but they are getting close…
 
 Whenever you *clear* a Sector, roll {roll:1d6|Path forward} to see if the path continues from here:
 
-| 1d6 | Result                  | Condition                                                |
-| --- | ----------------------- | -------------------------------------------------------- |
-| 1   | Dead end                | Only if other unexplored paths remain                    |
-| 2–3 | A branch — 2 options    | Only if there are less branches than Mission Length     |
-| 4–6 | One way forward         | —                                                        |
+| 1d6  | Result               | Condition                                           |
+| ---- | -------------------- | --------------------------------------------------- |
+| 1    | Dead end             | Only if other unexplored paths remain               |
+| 2–3  | A branch - 2 options | Only if there are less branches than Mission Length |
+| 4–6  | One way forward      | -                                                   |
 
 # Sectors
 
@@ -117,9 +117,9 @@ For a Sector's **[[Cover]]**, roll {roll:1d6|Cover}. Cover is expanded upon in [
 
 | 1d6 | Cover                                     | Max. Fortified |
 | --- | ----------------------------------------- | -------------- |
-| 1   | **0 — Exposed.** No real cover.           | None           |
-| 2–4 | **1 — Normal.** Scattered cover.          | 2              |
-| 5–6 | **2 — Dense.** Rubble, solid walls, barricades. | No limit |
+| 1   | **0 - Exposed.** No real cover.           | None           |
+| 2–4 | **1 - Normal.** Scattered cover.          | 2              |
+| 5–6 | **2 - Dense.** Rubble, solid walls, barricades. | No limit |
 
 ## Space
 
@@ -127,15 +127,15 @@ A Sector's **[[Space]]** describes the degree to which the battlefield is open o
 
 | 1d6 | Space                                                                 | Max. Flanking |
 | --- | --------------------------------------------------------------------- | ------------- |
-| 1   | **0 — Tight.** Tunnels, narrow corridors, trenches.                   | None          |
-| 2–4 | **1 — Transitional.** Courtyards, broken streets, alleyways, scattered ruins. | 2      |
-| 5–6 | **2 — Open.** Plazas, squares, promenades, fields.                    | No limit      |
+| 1   | **0 - Tight.** Tunnels, narrow corridors, trenches.                   | None          |
+| 2–4 | **1 - Transitional.** Courtyards, broken streets, alleyways, scattered ruins. | 2      |
+| 5–6 | **2 - Open.** Plazas, squares, promenades, fields.                    | No limit      |
 
 ## Sector Contents
 
 Roll {roll:1d6|Sector contents} and check the result, depending on [[Mission]] Difficulty. The mentioned TL ([[Threat Level]]) determines the opposition faced in the [[Engagement]].
 
-Threat Level ranges from 1 to 4, also named *Light — Standard — Heavy — Overwhelming*.
+Threat Level ranges from 1 to 4, also named *Light - Standard - Heavy - Overwhelming*.
 
 Generally, the last Sector visited will remain cleared. Other previously cleared Sectors are not necessarily safe forever, due to roaming patrols.
 
@@ -157,6 +157,6 @@ Roll {roll:1d6|Boon}.
 | 1 | **Ammo Cache.** All Troopers gain +1 Ammo. |
 | 2 | **Enemy Intel.** A vantage point, wounded scout or intercepted comms signal gives you +1 on the next [[Advance Roll]]. |
 | 3 | **Prepared Ground.** Someone was here before you, and they left gifts. Razor wire, traps, pre-sighted kill zones, a friendly mine field. Easily avoided by your Squad. If enemy forces pursue you into this Sector, gain +1 [[Momentum]] automatically. |
-| 4 | **Fallen Friendlies.** A slain friendly squad, with {roll:1d3|Ammo} Ammo and (roll {roll:1d6|Weapon}): 1–3 an LMG; 4–5 Sniper Rifle; 6 Rocket Launcher. |
+| 4 | **Fallen Friendlies.** A slain friendly squad, with {roll:1d3} [[Ammo]] and [[Special Weapons\|a Special Weapon]] ({roll:1d6}): <br />1-3 an LMG <br />4-5 a Sniper Rifle <br />6 Rocket Launcher |
 | 5 | **Positions Revealed.** A comms relay, interrogated foe or briefing from Command informs you of the Threat Level and Cover of all adjoining Sectors. |
-| 6 | **Rookies.** An eager squad of rookies, local militia or fresh recruits joins up with you. Their awe of the Squad is palpable. They add +1 ATK to each Offense Roll as long as they're with the Squad, but are all slain when Momentum is lost, heroically and naively trying to hold the line. They can also be sacrificed to save one Trooper from having to make a Defense Roll. In-universe, this takes the place of heroically protecting this particular Trooper of their own free will, before all dying tragically. |
+| 6 | **Rookies.** An eager squad of rookies, local militia or fresh recruits joins up with you. Their awe of the Squad is palpable. They act as a sizable group (**+2 ATK**). See [[Attached Forces]] in the Engagement section. |
