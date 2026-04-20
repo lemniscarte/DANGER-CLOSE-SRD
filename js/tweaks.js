@@ -64,18 +64,30 @@
 
   // --- Apply state to DOM ---------------------------------------
   function apply() {
+    const dark = document.documentElement.getAttribute("data-theme") === "dark";
     const root = document.documentElement.style;
-    root.setProperty("--paper",      state.paper);
-    root.setProperty("--paper-2",    state.paper2);
-    root.setProperty("--paper-edge", state.paperEdge);
-    root.setProperty("--ink",        state.ink);
-    root.setProperty("--rule",       state.rule);
-    root.setProperty("--accent",     state.accent);
+    if (!dark) {
+      root.setProperty("--paper",      state.paper);
+      root.setProperty("--paper-2",    state.paper2);
+      root.setProperty("--paper-edge", state.paperEdge);
+      root.setProperty("--ink",        state.ink);
+      root.setProperty("--rule",       state.rule);
+      root.setProperty("--accent",     state.accent);
+    } else {
+      // Let [data-theme="dark"] CSS vars take effect unobstructed
+      root.removeProperty("--paper");
+      root.removeProperty("--paper-2");
+      root.removeProperty("--paper-edge");
+      root.removeProperty("--ink");
+      root.removeProperty("--rule");
+      root.removeProperty("--accent");
+    }
     root.setProperty("--body-size",  state.bodySize + "px");
-    root.setProperty("--serif",      FONTS[state.bodyFont]    || FONTS.council);
+    root.setProperty("--serif",      FONTS[state.bodyFont]    || FONTS.outfit);
     root.setProperty("--display",    FONTS[state.headingFont] || FONTS.karrik);
   }
-  apply(); // on boot, sync the DOM with defaults/EDITMODE values
+  apply();
+  window.applyTweaks = apply; // let app.js call this on theme toggle
 
   // --- Tweaks panel wiring --------------------------------------
   const panel  = document.getElementById("tweaks-panel");

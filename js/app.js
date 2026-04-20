@@ -19,6 +19,7 @@
     else document.documentElement.removeAttribute("data-theme");
     localStorage.setItem("dcsrd.theme", next);
     updateThemeBtn();
+    if (window.applyTweaks) window.applyTweaks();
   });
   function updateThemeBtn() {
     const dark = document.documentElement.getAttribute("data-theme") === "dark";
@@ -239,8 +240,7 @@
     backdropEl.classList.remove("show");
   });
 
-  // ---- Squad pad ----
-  window.initSquadPad(document.getElementById("squad-pad"));
+  // Squad pad removed.
 
   // ---- Init ----
   window.addEventListener("hashchange", render);

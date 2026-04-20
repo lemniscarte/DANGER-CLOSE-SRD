@@ -7,6 +7,10 @@
 
 /* ---- Theme tokens ---- */
 :root {
+  /* ATK / DEF stat colours */
+  --atk: oklch(0.50 0.17 30);    /* rust-red */
+  --def: oklch(0.44 0.14 245);   /* steel-blue */
+
   /* Paper palette — bright, white-leaning (was cream) */
   --paper: #fbfaf6;
   --paper-2: #f3f0e8;
@@ -50,6 +54,9 @@
 }
 
 [data-theme="dark"] {
+  --atk: oklch(0.78 0.17 30);
+  --def: oklch(0.72 0.14 245);
+
   --paper: #16151a;
   --paper-2: #1d1c22;
   --paper-edge: #27262d;
@@ -457,6 +464,16 @@ h4:hover .heading-anchor { opacity: 1; }
   transition: background .8s ease-out;
 }
 
+/* ---- ATK / DEF stat tags ---- */
+.stat {
+  font-weight: 700;
+  letter-spacing: .02em;
+  font-family: var(--sans);
+  font-size: .95em;
+}
+.stat.atk { color: var(--atk); }
+.stat.def { color: var(--def); }
+
 /* ============================================================
    Glossary term pills + tooltip
    ============================================================ */
@@ -757,7 +774,7 @@ h4:hover .heading-anchor { opacity: 1; }
     position: fixed;
     inset: 0 auto 0 0;
     width: 280px;
-    z-index: 200;
+    z-index: 201;
     transform: translateX(-100%);
     transition: transform .25s ease;
     box-shadow: var(--shadow-lg);

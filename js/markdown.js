@@ -47,6 +47,12 @@
     text = text.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
     text = text.replace(/(^|[^*])\*([^*\n]+)\*/g, "$1<em>$2</em>");
 
+    // ATK / DEF stat highlighting — auto-detected, no special syntax needed.
+    // Matches patterns like "+2 ATK", "-1 DEF", "1d3 ATK", "3 ATK", "0 DEF".
+    // Run after bold so **+2 ATK** stays inside <strong> but also gets the colour span.
+    text = text.replace(/((?:[+\-\u2212]|\d+d)?\d+\s*ATK\b)/g, '<span class="stat atk">$1</span>');
+    text = text.replace(/((?:[+\-\u2212]|\d+d)?\d+\s*DEF\b)/g, '<span class="stat def">$1</span>');
+
     // Restore code spans
     text = text.replace(/\u0000CODE(\d+)\u0000/g, (_, i) => `<code>${escapeHtml(codes[+i])}</code>`);
 
