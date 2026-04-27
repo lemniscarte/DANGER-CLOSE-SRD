@@ -10,7 +10,9 @@ Mallory Peters
 
 ## Interior Illustrations
 
-Gordy Higgins (pages 1, 7, 20, 22, 30, 33, 34), HodagRPG (all other illustrations). All diagrams, hexmaps by Lars Huijbregts.
+Gordy Higgins, HodagRPG. 
+
+All diagrams, hexmaps by Lars Huijbregts.
 
 ## Typefaces
 
@@ -23,12 +25,12 @@ Icons courtesy of [game-icons.net](https://game-icons.net).
 
 ## Acknowledgements
 
-- Individual combat rules adapted from *Violence.* by Luke Gearing (2021, lukegearing.blot.im/violence).
-- Mass combat rules adapted from *Cataphract* by Sam Sorensen (2025, samsorensen.blot.im/cataphracts-design-diary-1).
+- Individual combat rules adapted from *Violence.* by Luke Gearing (2021, [lukegearing.blot.im/violence](lukegearing.blot.im/violence)).
+- Mass combat rules adapted from *Cataphract* by Sam Sorensen (2025, [samsorensen.blot.im/cataphracts-design-diary-1](samsorensen.blot.im/cataphracts-design-diary-1)).
 
 ## License
 
-All rules text up to page 34 is released under **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.
+All rules in this SRD are released under **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.
 
 You are free to share, adapt, and build upon this material for any purpose, including commercially, as long as you give appropriate credit and distribute your contributions under the same license.
 
