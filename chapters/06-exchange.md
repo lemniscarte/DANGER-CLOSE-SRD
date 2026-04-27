@@ -35,7 +35,7 @@ Firing is the staple action. Each **[[ATK]]** increases the odds of gaining Mome
 
 ### Move
 
-The Trooper repositions on the battlefield. Make a [[Mobility Check]]. [[Grit]] can be used to reroll.
+The Trooper repositions on the battlefield. Make a [[Mobility Check]]. [[Grit]] can be used to reroll. Note that Cover and Space might prevent certain movements. For instance, in a Tight Sector, you cannot Move Up.
 
 - **Move Up.** Offensive Position becomes **[[Flanking]]**. Mobility Check: Success = [[In Cover]], Failure = [[Flanked]].
 - **Fall Back.** Defensive Position becomes **[[Fortified]]**. Mobility Check: Success = [[Engaged]], Failure = [[Limited]].
@@ -215,13 +215,12 @@ When fighting serious threats, the enemy will prepare for certain strategies at 
 
 ### Pressure
 
-As an Engagement drags on, the enemy adapts and reinforces. This accumulated weight of fire is tracked as **Pressure**. At the end of each Exchange, when rolling for Enemy Tactics, if the d6 shows a natural 4 or higher, Pressure increases by 1 (to a maximum of TL+1). This is in addition to any Tactic triggered by the total roll.
+As an Engagement drags on, the enemy adapts and reinforces. This accumulated weight of fire is tracked as **Pressure**. At the end of each Exchange, **Pressure** increases by 1 (to a maximum of **TL+1**). 
 
 - Each point of Pressure imposes **-1 ATK** on the Squad.
 - Pressure reduces the Squad's total **ATK** pool before dice are allocated to targets.
 - Pressure can be targeted during Fire as a [[Hard Target]]. Each Hit reduces Pressure by 1.
 - Pressure resets between Engagements.
-- The Sergeant's Grit-spend to nullify a Tactic does not prevent a Pressure increase.
 - Reaching VICTORY routs the enemy and clears Pressure along with them.
 
 ## The End of the Engagement
