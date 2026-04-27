@@ -27,6 +27,15 @@ Mobility Checks: roll 1d6 equal or under to succeed. A Trooper with Mobility 0 a
 | Medium | -                       | -1            |
 | Heavy  | +1 to final DEF result. | -2            |
 
+### Extra Armor Options
+
+| Armor              | Properties              | Mobility Cost | REQ Cost |
+| ------------------ | ----------------------- | ------------- | -------- |
+| Power Armor Mk. I  | +1 to final DEF result. | -1            | 3        |
+| Power Armor Mk. II | +1 to final DEF result. | 0             | 5        |
+
+**Integrated Gear (2 REQ on top of the gear's own cost).** Integrate one piece of Special Equipment into a Trooper's armor. It no longer has an effect on mobility and doesn't occupy an equipment slot. If the Trooper dies in combat, the armor is ruined and the gear is lost.
+
 ## Weapon Properties
 
 | Weapon         | Properties                                                   |
