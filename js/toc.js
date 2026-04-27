@@ -24,5 +24,4 @@ window.TOC = [
 
   { group: "Reference" },
   { id: "credits",            title: "Credits & License",   file: "chapters/99-credits.md" },
-  { id: "external", title: "Digital Play Aid", url: "https://lars1808.github.io/DANGER-CLOSE-Play-Aid/" },
 ];
